@@ -1106,6 +1106,9 @@ input[type="email"] {
 
 
 @media (max-width: 426px) {
+    body{
+        over-flow:"hidden"
+    }
  .container{
     width: 1540px;
  }
