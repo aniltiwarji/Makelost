@@ -4,7 +4,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 
 function Footer() {
   return (
-    <div className="footer-container">
+    <div className="container footer-media">
       <footer>
         <div className="footer ds-flex">
           {/* Section 1 */}

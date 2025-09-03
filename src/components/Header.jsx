@@ -12,7 +12,7 @@ function Header() {
         </div>
     
 
-        <div className="d-flex level-1">
+        <div className="d-flex dis-flex level-1">
           <div className="left-1">
             <img src="/image/bottom-image-small.jpg" alt="mission" />
           </div>

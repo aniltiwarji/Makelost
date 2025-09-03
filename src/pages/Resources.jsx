@@ -4,8 +4,8 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 
 const Resources = () => {
   return (
-    <div className="resource-page">
-      <div className="resource-p">
+    <div className="container">
+      <div className="resource-p resource-page">
         <h1>404</h1>
         <div className="ds-flex">
           <img

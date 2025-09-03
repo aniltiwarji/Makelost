@@ -3,13 +3,13 @@ import React from "react";
 function TestimonialsSection() {
   return (
     <section>
-      <div className="container" style={{ background: "white" }}>
+      <div className="clients container" style={{ background: "white" }}>
         <div className="id">
           <p>TESTIMONIALS</p>
           <h1>Our Happy Clients!</h1>
           <p style={{ border: "2px solid rgb(255, 255, 255)", margin: "auto", width: "70px", boxShadow: "0 0 20px blue" }}></p>
         </div>
-        <div className="box d-flex">
+        <div className="box d-flex dis-flex">
           <div className="box-1">
             <p>The Friendly and knowledgeable staff was very helpful in getting our project off the ground. We honestly couldn't have done it without them.</p>
             <div className="ds-flex file">
@@ -48,7 +48,7 @@ function TestimonialsSection() {
           </a>
         </div>
 
-        <div className="blog-card d-flex">
+        <div className="blog-card d-flex dis-flex">
           <div className="blog-meta-1">
             <div className="blog">
               <h2>July 2, 2025 <span style={{ paddingLeft: "20px" }}> by MakeLots</span></h2>

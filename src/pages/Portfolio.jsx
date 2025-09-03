@@ -4,7 +4,7 @@ import React from "react";
 const Portfolio = () => {
   return (
     <>
-      {/* Breadcrumb */}
+     <div className="container">
       <div className="nate">
         <a href="/">HOME</a> <span> &gt; Portfolio</span>
         <h2>Portfolio</h2>
@@ -42,6 +42,7 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </>
   );

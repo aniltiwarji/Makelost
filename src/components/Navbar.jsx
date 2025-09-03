@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-      <div className="nav d-flex">
+      <div className="nav d-flex container">
         
           <img src="/image/MAKELOTS-logo-1.webp" alt="Logo" />
         

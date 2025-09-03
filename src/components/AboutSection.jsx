@@ -3,10 +3,10 @@ import "bootstrap-icons/font/bootstrap-icons.min.css";
 
 function AboutSection() {
   return (
-    <section className="about-section">
+    <section className="container">
       {/* Video + text points */}
       <div className="a-video">
-        <div className="video ds-flex">
+        <div className="video ds-flex dis-flex">
           {/* ✅ Video from public/videos/videom4.mp4 */}
           <video
             src="/video/videom4.mp4"
@@ -53,7 +53,7 @@ function AboutSection() {
       </div>
 
       {/* About Us content */}
-      <div className="level-2 d-flex">
+      <div className="level-2 d-flex dis-flex">
         <div className="left-2">
           <h4>We're a community of tech-savvy dreamers and doers.</h4>
           <h1>ABOUT US</h1>

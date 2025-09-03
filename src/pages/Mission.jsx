@@ -4,7 +4,7 @@ import React from "react";
 const Mission = () => {
   return (
     <>
-      {/* Breadcrumb */}
+      <div className="container">
       <div className="nate">
         <a href="/">HOME</a> <span> &gt; Mission Statement</span>
         <h2>Mission Statement</h2>
@@ -38,6 +38,7 @@ const Mission = () => {
           assistance for your new business website, please don’t hesitate to get
           in touch. We’re wholeheartedly dedicated to your success!
         </h4>
+      </div>
       </div>
     </>
   );

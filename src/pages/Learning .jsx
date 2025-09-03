@@ -3,6 +3,7 @@ import React from "react";
 
 const Learning = () => {
   return (
+    <div className="container">
     <div className="learning">
       <div className="learn">
         <a href="#">
@@ -23,6 +24,7 @@ const Learning = () => {
           </span>
         </time>
       </div>
+    </div>
     </div>
   );
 };

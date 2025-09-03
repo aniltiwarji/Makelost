@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 function Donate() {
@@ -8,7 +8,8 @@ function Donate() {
   const prevStep = () => setStep((prev) => Math.max(prev - 1, 1));
 
   return (
-    <div className="body">
+    <div className="body container">
+     
       <div className="nate">
         <Link to="/">HOME</Link> <span> &gt; DONATE</span>
         <h2>Donate</h2>
@@ -139,7 +140,9 @@ function Donate() {
           </div>
         </div>
       </div>
-    </div>
+    
+        </div>
+      
   );
 }
 
